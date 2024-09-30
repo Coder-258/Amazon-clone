@@ -1,0 +1,479 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+}
+/* Designing navbar */
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 4rem;
+}
+.logo{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.wYMKwQbhe1jFBCYQDWOhvQHaEK&pid=Api&P=0&h=180);
+    height: 4em;
+    width: 7.2em;
+    background-size: cover;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.address-txt{
+    color: rgb(143, 139, 139);
+    font-size: 1.2rem;
+}
+.img-loc{
+    height: 1rem;
+    width: 1rem;
+}
+.txt{
+    color: white;
+    font-size: 1.2rem;
+}
+.location{
+    display: flex;
+}
+.dropdown{
+    background-color: rgb(192, 186, 186);
+}
+.searchbox{
+    display: flex;
+    height: 2rem;
+    width: 58%;
+}
+#searchbox{
+    width: 85%;
+}
+.search{
+    height: 2rem;
+    width: 2rem;
+    background-color:rgb(238, 199, 21);
+}
+.search-img{
+    height: 1.3rem;
+    width: 1.3rem;
+    background-size: cover;
+}
+.lang-drop{
+    height: 1.2rem;
+    width: 3rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.flag{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+.signin-btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.signin-txt{
+    color: white;
+}
+.sign-drop{
+  background-color: black;
+  border: none;
+  color: white;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+}
+.shopcart{
+    display: flex;
+}
+.shopcart-img{
+    background-size: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.cart-txt{
+    color: white;
+    margin-top: 1rem;
+}
+/* Designing menu below navbar  */
+.menu{
+    background-color: rgb(6, 6, 86);
+    height: 3rem;
+    display: flex;
+    /* position: relative; */
+    align-items: centre;
+}
+.hamburger-icon{
+    display: flex;
+    align-items: center;
+}
+.bar1{
+height: 0.005rem;
+width: 13px;
+background-color: white;
+
+}
+.bar2{
+    margin: 6px 0px;
+height: 0.005rem;
+width: 13px;
+background-color: white;
+}
+.bar3{
+    margin: 6px 0px;
+height: 0.005rem;
+width: 13px;
+background-color: white;
+}
+.hamburger-txt{
+    color: white;
+    margin-left: 2px;
+}
+.list{
+    display: flex;
+    color: white;
+    align-items: center;
+    list-style: none;
+}
+.list-items{
+    margin: 4px;
+    padding: 4px;
+}
+.list-items:hover{
+ cursor: pointer;
+ }
+.container{
+background-image: url("images/bg.png");
+height: 350px;
+  display: flex;
+align-items: flex-end;
+justify-content: center; 
+} 
+.left-arrow{
+    height: 20px;
+}
+.container-txt{
+    position: relative;
+    height:3rem;
+    width: 80%;
+    margin-bottom: 25px;
+    background-color: white;
+    text-align: center;
+}
+.container-para{
+    padding:10px;
+}
+/* designing items or accessories */
+ .grid{
+    display: grid;
+    background-color: rgb(228, 224, 224);
+    grid-template-columns: 25% 25%  25% 25% ;
+    grid-template-rows: 24rem 24rem  ;
+}
+.shop-items{
+    background-color: white;
+    margin: 15px;
+    height: 22rem;
+    width: 90%;
+} 
+.shop-items-txt{
+    font-size: 20px;
+    margin: 13px;
+}
+.img-box{
+display: flex;
+}
+.accessories-box{
+    height: 5.7rem;
+    margin-left: 8px;
+    padding: 5px;
+}
+.figcaption{
+    margin-left: 8px;
+}
+.footer-boxes{
+    margin: 13px;
+    font-size: 15px;
+    color: rgb(15, 162, 162);
+}
+.img-box2{
+    display: flex;
+    justify-content: center;
+}
+.box2-img{
+    height: 16rem;
+    width: 18rem;
+}
+.box3{
+    margin-bottom: 13px;
+}
+#box4-img{
+    width: 18rem;
+    height: 8rem;
+
+}
+.img-box4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+.imagesbox4{
+    display: flex;
+}
+.images-box-4{
+    width: 6.3rem;
+    margin: 5px;
+}
+.row2{
+    margin-bottom: 11px;
+}
+.img-row3{
+    /* background-color: rgb(228, 224, 224);   */
+   padding: 15px;
+}
+.multiple-images{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    /* background-color: rgb(228, 224, 224); */
+}
+.images{
+    align-items: center;
+    padding: 13px;
+}
+.img-2-row3{
+    width: 15rem;
+}
+.multiple-images-2{
+    /* margin: 15px; */
+    margin-top: 15px;
+}
+.grid2{
+    display: grid;
+    background-color: rgb(228, 224, 224);
+    grid-template-columns: 25% 25%  25% 25% ;
+    grid-template-rows: 24rem;
+}
+.images2{
+    width: 16.5rem;
+}
+/* Designing images with prices */
+
+.image-head{
+    display: flex;
+}
+.Image-desc-div{
+    display: flex;
+    justify-content: space-between;
+}
+.image-box{
+margin: 5px;
+}
+.img-price-1{
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    justify-content: center;
+}
+.discount{
+    display: flex;
+    font-size: 0.9rem;
+}
+.discount-percent{
+    color: white;
+    background-color: red;
+    height: 15px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+}
+.deal-time{
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+}
+.price{
+    display: flex;
+}
+.discounted-price{
+    font-size: 1.0rem;
+    margin: 5px;
+}
+.actual-price{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin: 5px;
+}
+.product-description{
+    font-size: 0.8rem;
+}
+.grid4{
+    display: grid;
+    background-color: rgb(228, 224, 224);
+    grid-template-columns: 25% 25%  25% 25% ;
+}
+.multiple-images-3 img{
+    margin: 9px;
+}
+.multiple-images4 img{
+    margin: 12px;
+}
+.images-with-detailed-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.only-images-with-detailed-desc{
+    display: flex;
+    margin-top: 25px;
+}
+.blue-color-caption{
+ color: rgb(15, 162, 162);
+}
+.seller-rating{
+    display: flex;
+}
+#seller-rating{
+    background-color: rgb(208, 138, 8);
+    margin: 3px;
+    color: white;
+    text-align: center;
+}
+.price-of-product{
+    display: flex;
+}
+.price-per-ounce{
+    font-size: 13px;
+    margin:5px;
+}
+.shipping-price{
+    font-size: 15px;
+}
+.personal-recommendations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.sign-in-btn{
+    width: 200px;
+    height: 25px;
+    background-color: #eab633;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.new-customer{
+    display: flex;
+}
+.back-to-top{
+    display: flex;
+    background-color: #242a2a;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343e3e ;
+    height: 500px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 75%;
+}
+.footer-box-1{
+    color: white;
+    text-align: right;
+    margin-top: 0px;
+    /* margin-top: 30px; */
+}
+.footer-box-txt{
+    margin: 10px;
+}
+.box2{
+    text-align: center;
+}
+.box4{
+    text-align: left;
+}
+.borderline{
+    background-color: white;
+    height: 1px;
+}
+.footer-with-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181c1c ;
+    height: 250px;
+}
+.footer-with-logo img{
+    height: 40px;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-list li{
+    height: 40px;
+    width: 200px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 6px;
+    
+}
+.footer-list a{
+    text-decoration: none;
+    align-items: center;
+}
+.last-footer{
+    display: flex;
+    background-color: #0f151c;
+    flex-direction: column;
+    height: 500px;
+}
+.last-footer-table{
+    color: white;
+    height: 400px;
+}
+.last-footer-table table{
+    margin-left: 175px;
+}
+.last-footer-table table tr td{
+    width: 150px;
+    font-size: 14px;
+    margin: 20px;
+}
+.last-footer-table table tr td p{
+    color: rgb(119, 112, 112);
+}
+.copyright-information {
+    display: flex;
+    color: rgb(119, 112, 112);
+    font-size: 14px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.copyright-information p{
+    margin-left: 12px;
+}
+.last-line{
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 112, 112);
+}
